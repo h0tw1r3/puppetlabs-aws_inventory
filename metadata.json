@@ -8,12 +8,12 @@
   "project_page": "https://github.com/puppetlabs/puppetlabs-aws_inventory",
   "dependencies": [
     {
-      "name":"puppetlabs-ruby_plugin_helper",
-      "version_requirement":">= 0.1.0 < 1.0.0"
+      "name": "puppetlabs-ruby_plugin_helper",
+      "version_requirement": ">= 0.1.0 < 1.0.0"
     },
     {
-      "name":"puppetlabs-ruby_task_helper",
-      "version_requirement":">= 0.4.0 < 1.0.0"
+      "name": "puppetlabs-ruby_task_helper",
+      "version_requirement": ">= 0.4.0 < 1.0.0"
     }
   ],
   "operatingsystem_support": [
@@ -67,7 +67,7 @@
       "version_requirement": ">= 4.10.0 < 8.0.0"
     }
   ],
-  "pdk-version": "1.14.0",
-  "template-url": "https://github.com/puppetlabs/pdk-templates#1.14.0",
-  "template-ref": "1.14.0-0-g1bf3a4e"
+  "pdk-version": "3.0.0",
+  "template-url": "https://github.com/puppetlabs/pdk-templates#3.0.0",
+  "template-ref": "tags/3.0.0-0-g5bfc1c0"
 }

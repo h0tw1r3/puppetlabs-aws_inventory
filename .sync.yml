@@ -1,0 +1,21 @@
+---
+.devcontainer:
+  delete: true
+.gitlab-ci.yml:
+  delete: true
+.travis.yml:
+  delete: true
+Gemfile:
+  required:
+    ':runtime':
+      - gem: 'aws-sdk-ec2'
+        version: '~> 1'
+.rubocop.yml:
+  default_configs:
+    RSpec/NamedSubject:
+      Enabled: false
+    RSpec/SubjectStub:
+      Enabled: false
+    RSpec/BeforeAfterAll:
+      Exclude:
+        - spec/integration/**/*.rb
