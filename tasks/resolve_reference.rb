@@ -6,6 +6,7 @@ require_relative '../../ruby_plugin_helper/lib/plugin_helper.rb'
 require 'json'
 require 'aws-sdk-ec2'
 
+# Bolt inventory resolve_reference task
 class AwsInventory < TaskHelper
   include RubyPluginHelper
 
